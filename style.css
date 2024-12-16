@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: "Dm sans" ,-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+    gap: 40px;
+    font-size: 22px;
+    list-style: none;
+}
+
+.orderBn{
+    background-color: #a27b5c;
+    padding:20px 30px ;
+    border: none;
+    color: white;
+}
+.singBn{
+    padding: 18px 30px;
+    border: 2px solid #a27b5c;
+    background-color: white;  
+}
+.header span{
+    color: #a27b5c;
+}
+
+.main{
+    height: 600px;
+    background-color: #e6d0bd;
+    text-align: center;
+    padding-top: 60px;
+
+}
+.main h1{
+    font-size: 100px;
+}
+.main img{
+    width: 1200px;
+    height: 400px;
+}
+.main h2{
+    margin-right: 595px;
+}
+.main h5{
+    margin-right: 1070px;
+    color: gray;
+}
+.blog{
+    display: flex;
+    margin: 10px 140px;
+    gap: 40px;
+    border-top: 1px solid gray;
+    padding: 30px;
+
+}
+.blog img {
+    width: 200px;
+}
+
+.btn-parent {
+text-align: center;
+margin: 50px 0;
+}
+.footer{
+    height: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer h1{
+    font-size: 80;
+    padding-top: 60px;
+}
+.footer hr{
+    margin: 20px 70px;
+}
